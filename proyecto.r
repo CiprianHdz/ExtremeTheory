@@ -1,5 +1,5 @@
 ####-------------RAINFALL-------------
-df = read.table("/home/anitohdz/Documents/CIMAT/Tercero/Valores Exteemos/Proyecto/rainfall.csv",header=TRUE,sep = ",")
+df = read.table("./rainfall.csv",header=TRUE,sep = ",")
 plot(df$Year, df$Rainfall....MM.,xlab = 'Año',ylab = 'Precipitación pluvial')
 
 head(df)
